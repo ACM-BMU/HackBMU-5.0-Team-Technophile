@@ -1,5 +1,5 @@
 # HackBMU-5.0-Team-Technophile
-# Vehicle-Accident-Alarm-System
+# Vehicle-Accident-Alarm-System (VAAS)
 ## Problem Statement -- Road Safety and How we can reduce the death due to road accidents and provide immediate checkups and operations by doctors using technology.
 
 Real time gps location based alarming system tracking the road accident and providing medical assitance plus concern from near by police station.
