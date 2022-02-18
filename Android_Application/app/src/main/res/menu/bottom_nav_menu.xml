@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/live_incidents"
+        android:title="Live Incidents"
+        android:icon="@drawable/fa_solid_car_crash"/>
+    <item android:id="@+id/safeRoutes"
+        android:title="Safe Routes"
+        android:icon="@drawable/road"/>
+</menu>
