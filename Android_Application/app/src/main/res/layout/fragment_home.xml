@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/live"
+        android:text="Live"
+        android:fontFamily="@font/amaranth"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIncident"
+        android:text="Incidents"
+        android:fontFamily="@font/amaranth"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintTop_toBottomOf="@id/live"
+        app:layout_constraintStart_toStartOf="@id/live"/>
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="80dp"
+       app:layout_constraintTop_toTopOf="@id/live"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:layout_marginRight="50dp"
+       android:src="@drawable/fa_solid_car_crash"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refreshBtn"
+        android:backgroundTint="@color/white"
+        app:backgroundTint="@color/white"
+        app:srcCompat="@drawable/ic_baseline_refresh_24"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"/>
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp">-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/incident_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="200dp"
+            app:layout_constraintTop_toBottomOf="@id/txtIncident"
+            android:layout_marginBottom="60dp"/>
+  <!-- </ScrollView>-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemTextColor="@color/white"
+        app:itemBackground="@color/black"
+        android:background="@color/black"
+        app:itemRippleColor="@color/green"
+        app:itemIconTint="@color/white"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

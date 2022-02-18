@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954168977646",
+    "project_id": "vaas-331014",
+    "storage_bucket": "vaas-331014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954168977646:android:44685b065b56903fbfebff",
+        "android_client_info": {
+          "package_name": "com.sv.vaas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954168977646-1jjh1hdau03d3hlejkon0kp4dttrt25n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvQfBPQp5ZuNT4FMEbg0sm7wp7z8V_A6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954168977646-1jjh1hdau03d3hlejkon0kp4dttrt25n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
