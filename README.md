@@ -39,7 +39,7 @@ Trigger in this project is the g-force but repalcing it with flame sensors it ca
 ![Simulation](https://github.com/ACM-BMU/HackBMU-5.0-Team-Technophile/blob/main/Images/Images/Simulation%202.png)
 
 ## Prtotype Video
-![Video Link](https://drive.google.com/file/d/1aWFcwWN4AhG3tOHWKMFAedt1JUv7SVkR/view?usp=sharing)
+[Video Link](https://drive.google.com/file/d/1aWFcwWN4AhG3tOHWKMFAedt1JUv7SVkR/view?usp=sharing)
 
 ## Simulation Video
-![Simulation Link](https://drive.google.com/file/d/1gnplex6wNeQgiRva1q0G5fTqwWtrFc64/view?usp=sharing)
+[Simulation Link](https://drive.google.com/file/d/1gnplex6wNeQgiRva1q0G5fTqwWtrFc64/view?usp=sharing)
